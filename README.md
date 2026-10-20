@@ -61,8 +61,8 @@ Resultados em `output/predictions.json` e `output/resultado_ragas_metrics.csv`.
 
 ## Sobre o corpus (não incluído)
 
-A pasta `data/` (corpus do manual AMM Boeing 737, TOC e ground truth com
-`source_excerpt`) **não está versionada** por conter material proprietário da
+A pasta `data/` e o arquivo `ground_truth_approved.json` (corpus do manual AMM Boeing 737, TOC e ground truth com
+`source_excerpt`) **não estão versionados** por conter material proprietário da
 Boeing. Para executar o benchmark, obtenha os JSONs do manual no seu ambiente
 de curso e coloque-os em `data/corpus/` — o código os carrega automaticamente.
 
